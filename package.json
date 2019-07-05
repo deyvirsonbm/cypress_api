@@ -1,0 +1,22 @@
+{
+  "name": "desafio_easynvest",
+  "version": "1.0.0",
+  "description": "Desafio QA easynvest",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deyvirsonbm/cypress_api.git"
+  },
+  "author": "Deyvirson Mendonça",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deyvirsonbm/cypress_api/issues"
+  },
+  "homepage": "https://github.com/deyvirsonbm/cypress_api#readme",
+  "dependencies": {
+    "cypress": "^3.3.2"
+  }
+}

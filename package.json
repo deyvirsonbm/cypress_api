@@ -4,7 +4,9 @@
   "description": "Desafio QA easynvest",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "./node_modules/.bin/cypress open"
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/deyvirsonbm/cypress_api#readme",
   "dependencies": {
-    "cypress": "^3.3.2"
-  }
+    "cypress": "^3.3.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }

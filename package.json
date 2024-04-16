@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/deyvirsonbm/cypress_api#readme",
   "dependencies": {
-    "cypress": "^3.3.2"
+    "cypress": "^4.11.0"
   }
 }
